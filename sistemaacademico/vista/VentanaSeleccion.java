@@ -17,13 +17,7 @@ public class VentanaSeleccion extends javax.swing.JFrame {
     //private JComboBox<String> cmbEleccion;
     public VentanaSeleccion() {
         initComponents();
-        /*setTitle("Menú Principal");
-        setSize(400, 150);
-        setLocationRelativeTo(null);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);*/
-
-        //combo = new JComboBox<>(new String[]{"Selecciona una vista", "Inicio", "Datos", "Resumen"});
-        
+       
         cmbEleccion.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String seleccion = (String) cmbEleccion.getSelectedItem();
@@ -63,8 +57,9 @@ public class VentanaSeleccion extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        txtRol.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        txtRol.setText("Elija su rol en la institucion");
+        txtRol.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
+        txtRol.setForeground(new java.awt.Color(0, 102, 51));
+        txtRol.setText("ELIJA UNA OPCIÓN");
 
         cmbEleccion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Personal Servicio", "Persona Invitada", "Estudiante", "Profesor", "Decano" }));
         cmbEleccion.addActionListener(new java.awt.event.ActionListener() {
@@ -78,22 +73,23 @@ public class VentanaSeleccion extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(27, 27, 27)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(13, 13, 13)
-                        .addComponent(cmbEleccion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(txtRol))
-                .addContainerGap(31, Short.MAX_VALUE))
+                        .addGap(94, 94, 94)
+                        .addComponent(txtRol))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(67, 67, 67)
+                        .addComponent(cmbEleccion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(63, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(19, 19, 19)
+                .addContainerGap()
                 .addComponent(txtRol)
                 .addGap(18, 18, 18)
                 .addComponent(cmbEleccion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(41, Short.MAX_VALUE))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
 
         pack();

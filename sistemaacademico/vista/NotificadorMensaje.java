@@ -11,7 +11,11 @@ import javax.swing.JOptionPane;
  * @author IDC
  */
 public class NotificadorMensaje {
-     public void mostrarMensaje(String mensaje){
-        JOptionPane.showMessageDialog(null, mensaje, "informacion", JOptionPane.INFORMATION_MESSAGE);
+
+    public void mostrarMensaje(String mensaje) {
+        JOptionPane.showMessageDialog(null, mensaje, "   INFORMACIÓN", JOptionPane.INFORMATION_MESSAGE);
+
     }
+
+
 }

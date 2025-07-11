@@ -52,13 +52,13 @@ public class Profesores implements IProfesores {
     public boolean eliminarProfesor(int id) {
         for (int i = 0; i < totalProfesores; i++) {
             if (profesores[i].getId() == id) {
-                // Reorganizar el arreglo para quitar el hueco
+              
                 for (int j = i; j < totalProfesores - 1; j++) {
                     profesores[j] = profesores[j + 1];
                 }
                 profesores[totalProfesores - 1] = null;
                 totalProfesores--;
-                System.out.println("Profesor eliminado");
+                System.out.println("PROFESOR A SIDO ELIMINADO");
                 return true;
             }
         }
@@ -81,7 +81,7 @@ public class Profesores implements IProfesores {
                 return true;
             }
         }
-        System.out.println("Código no encontrado");
+        System.out.println("NO SE ENCONTRO EL CODIGO");
         return false;
     }
 
