@@ -8,7 +8,7 @@ import com.mycompany.sistemaacademico.personalacademico.PersonaAcademico;
 
 /**
  *
- * @author IDC
+ * @author Marjorie
  */
 public class Decano extends PersonaAcademico {
 

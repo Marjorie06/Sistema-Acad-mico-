@@ -10,7 +10,7 @@ import javax.swing.JComboBox;
 
 /**
  *
- * @author SO_LAB3_PC04
+ * @author Marjorie
  */
 public class VProfesores extends javax.swing.JFrame {
 

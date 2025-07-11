@@ -6,7 +6,7 @@ package com.mycompany.sistemaacademico.decanos;
 
 /**
  *
- * @author IDC
+ * @author Marjorie
  */
 public interface IDecanos {
 

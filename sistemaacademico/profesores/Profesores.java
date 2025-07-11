@@ -6,7 +6,7 @@ package com.mycompany.sistemaacademico.profesores;
 
 /**
  *
- * @author IDC
+ * @author Marjorie
  */
 public class Profesores implements IProfesores {
 

@@ -13,7 +13,7 @@ import com.mycompany.sistemaacademico.vista.VProfesores;
 
 /**
  *
- * @author IDC
+ * @author Marjorie
  */
 public class ControladorProfesores {
 

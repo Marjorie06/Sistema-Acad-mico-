@@ -6,7 +6,7 @@ package com.mycompany.sistemaacademico.profesores;
 
 /**
  *
- * @author IDC
+ * @author Marjorie
  */
 public enum Escalafon {
     PRINCIPAL,

@@ -72,7 +72,7 @@ public class ControladorPersonaInvitada {
         try {
             int idPersonaInvitada = Integer.parseInt(vistaPersonaInvitada.getBuscar());
             boolean PersonaBuscada = iPersonasInvitadas.buscarPersonaInvitada(idPersonaInvitada);
-            //Profesor eliminarProfesor = new Profesor(0," "," ",  0, " ", " ");
+
             if (PersonaBuscada == true) {
                 iPersonasInvitadas.eliminarPersonaInvitada(idPersonaInvitada);
                 notificarMensaje.mostrarMensaje("Persona Eliminada");

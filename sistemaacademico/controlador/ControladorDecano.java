@@ -73,7 +73,7 @@ public class ControladorDecano {
         try {
             int idDecano = Integer.parseInt(vistaDecano.getBuscar());
             boolean profesorBuscado = iDecano.buscarProfesor(idDecano);
-            //Profesor eliminarProfesor = new Profesor(0," "," ",  0, " ", " ");
+           
             if (profesorBuscado == true) {
                 iDecano.eliminarDecano(idDecano);
                 notificarMensaje.mostrarMensaje("Decano eliminado");

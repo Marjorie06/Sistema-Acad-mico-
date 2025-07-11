@@ -8,7 +8,7 @@ import com.mycompany.sistemaacademico.personas.Persona;
 
 /**
  *
- * @author IDC
+ * @author Daniela
  */
 public class PersonaInstitucional extends Persona {
     //Atributos

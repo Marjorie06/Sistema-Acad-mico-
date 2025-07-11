@@ -8,7 +8,7 @@ import com.mycompany.sistemaacademico.personalinstitucional.PersonaInstitucional
 
 /**
  *
- * @author IDC
+ * @author Marjorie y Daniela
  */
 public class Empleado extends PersonaInstitucional {
     //Atributos

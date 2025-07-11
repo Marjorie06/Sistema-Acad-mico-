@@ -6,7 +6,7 @@ package com.mycompany.sistemaacademico.personaservicios;
 
 /**
  *
- * @author IDC
+ * @author Marjorie
  */
 public interface IPersonasServicios {
 

@@ -6,7 +6,7 @@ package com.mycompany.sistemaacademico.estudiantes;
 
 /**
  *
- * @author IDC
+ * @author Daniela
  */
 public class Estudiantes implements IEstudiantes {
 

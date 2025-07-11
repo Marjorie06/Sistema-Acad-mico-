@@ -8,7 +8,7 @@ import com.mycompany.sistemaacademico.personalinstitucional.PersonaInstitucional
 
 /**
  *
- * @author IDC
+ * @author Daniela
  */
 public class Estudiante extends PersonaInstitucional {
 

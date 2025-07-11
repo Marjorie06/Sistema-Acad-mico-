@@ -6,7 +6,7 @@ package com.mycompany.sistemaacademico.personasinvitadas;
 
 /**
  *
- * @author IDC
+ * @author Marjorie
  */
 public class PersonasInvitadas implements IPersonasInvitadas{
       

@@ -74,7 +74,7 @@ public class ControladorPersonalServicios {
         try {
             int idPersonalServicio = Integer.parseInt(vistaPersonalServicio.getBuscar());
             boolean PersonaBuscada = iPersonasServicios.buscarPersonasServicio(idPersonalServicio);
-            //Profesor eliminarProfesor = new Profesor(0," "," ",  0, " ", " ");
+         
             if (PersonaBuscada == true) {
                 iPersonasServicios.eliminarPersonasServicio(idPersonalServicio);
                 notificarMensaje.mostrarMensaje("Personal Eliminado");

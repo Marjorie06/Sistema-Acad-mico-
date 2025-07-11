@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author IDC
+ * @author Marjorie
  */
 public class NotificadorMensaje {
 

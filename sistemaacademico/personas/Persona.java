@@ -6,7 +6,7 @@ package com.mycompany.sistemaacademico.personas;
 
 /**
  *
- * @author IDC
+ * @author Daniela
  */
 public class Persona {
 

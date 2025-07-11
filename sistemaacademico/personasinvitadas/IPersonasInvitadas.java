@@ -6,7 +6,7 @@ package com.mycompany.sistemaacademico.personasinvitadas;
 
 /**
  *
- * @author IDC
+ * @author Daniela
  */
 public interface IPersonasInvitadas {
 
